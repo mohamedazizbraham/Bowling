@@ -35,6 +35,7 @@ public class Tour {
 	 * @return the number of balls already thrown in this frame
 	 **/
 	public int getBoulesLancees() {
+		
 		return boulesLancees;
 	}
 
