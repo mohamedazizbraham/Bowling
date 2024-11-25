@@ -3,7 +3,7 @@ package bowling;
 /**
  * Le 10° tour, différent de tous les autres tours : Il peut avoir trois lancers
  * Il n'a pas de lancer suivant.
- *
+ 
  * La classe n'est pas publique, sa visibilité est limitée au package
  */
 class DernierTour extends Tour {
@@ -39,6 +39,7 @@ class DernierTour extends Tour {
 
 	@Override
 	int bonusPourStrike() {
+		
 		return quillesAbattuesLancer1 + quillesAbattuesLancer2;
 	}
 
